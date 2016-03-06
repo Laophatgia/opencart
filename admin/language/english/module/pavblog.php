@@ -58,6 +58,7 @@ $_['entry_layout']        = 'Layout:';
 $_['entry_position']      = 'Position:';
 $_['entry_status']        = 'Status:';
 $_['entry_sort_order']    = 'Sort Order:';
+$_['entry_short_description']      = ' Short Description';
 $_['entry_description']    = 'Description:';
 $_['entry_type']    = 'Type:';
 $_['entry_url']    = 'URL:';

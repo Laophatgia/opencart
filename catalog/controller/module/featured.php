@@ -65,7 +65,7 @@ class ControllerModuleFeatured extends Controller {
 						'description' => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
 						'price'       => $price,
 						'special'     => $special,
-						'location'  => $product_info['location'],
+						'short_description' => utf8_substr(strip_tags(html_entity_decode($product_info['short_description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
 						'tax'         => $tax,
 						'rating'      => $rating,
 						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])

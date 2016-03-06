@@ -15,7 +15,9 @@ $_['column_action']      = 'Action';
 
 // Entry
 $_['entry_name']         = 'Geo Zone Name';
+$_['entry_short_description']      = ' Short Description';
 $_['entry_description']  = 'Description';
+$_['entry_short_description']      = ' Short Description';
 $_['entry_country']      = 'Country';
 $_['entry_zone']         = 'Zone';
 

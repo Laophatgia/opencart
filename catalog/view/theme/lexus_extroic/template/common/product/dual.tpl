@@ -33,8 +33,8 @@
     <?php } ?> 
 
     <blockquote> 
-	<?php if( isset($product['location']) ){ ?>	
-		 <p > <?php echo $product['location'];?> </p>
+	<?php if( isset($product['short_description']) ){ ?>	
+		 <p > <?php echo $product['short_description'];?> </p>
 	<?php } ?> 
     </blockquote>
   </div>  

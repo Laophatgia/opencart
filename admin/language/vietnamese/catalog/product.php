@@ -32,7 +32,7 @@ $_['entry_name']             = 'Tên sản phẩm:';
 $_['entry_meta_title'] 	     = 'Tiêu đề Meta từ khóa Tag';
 $_['entry_meta_keyword']     = 'Từ khóa:';
 $_['entry_meta_description'] = 'Mô tả từ khóa:';
-$_['entry_description']      = 'Mô tả sản phẩm:';
+$_['entry_description']      = 'Mô tả sản phẩm:';$_['entry_short_description']      = 'Mô tả ngắn :';
 $_['entry_store']            = 'Cửa hàng:';
 $_['entry_keyword']          = 'Đường dẫn thân thiện SEO:<br/><span class="help">Ví dụ: Dien-thoai-Samsung-Galaxy-S3.html</span>';
 $_['entry_model']            = 'Model:';$_['entry_sku']              = 'SKU:';$_['entry_bookname']         = 'Tên sách:';$_['entry_author']           = 'Tác giả:';$_['entry_translator']       = 'Dịch giả:';$_['entry_isbn13']           = 'ISBN-13:';$_['entry_binding']          = 'Trình bày Bìa sách:';$_['entry_publishingdate']   = 'Ngày phát hành:';$_['entry_publisher']        = 'Nhà xuất bản:';$_['entry_numberofpages']    = 'Số trang:';$_['entry_booklanguage']         = 'Ngôn ngữ:';$_['entry_madein']         = 'Xuất xứ:';$_['entry_material']         = 'Chất liệu:';
@@ -122,7 +122,7 @@ $_['help_tag']          	 = 'Ngăn cách mỗi từ Khóa bằng dấu phẩy';
 // Error
 $_['error_warning']          = 'Cảnh báo: Dữ liệu bắt buộc chưa được nhập vào. Kiểm tra các ô trống!';
 $_['error_permission']       = 'Cảnh báo: Bạn không được phép thay đổi các sản phẩm!';
-$_['error_name']             = 'Tên sản phẩm phải lớn hơn 3 và nhỏ hơn 255 ký tự!';
+$_['error_name']             = 'Tên sản phẩm phải lớn hơn 3 và nhỏ hơn 255 ký tự!';$_['error_short_description']             = 'Mô tả ngắn phải được nhập!';
 $_['error_meta_title']       = 'Meta Title phải lớn hơn 3 và nhỏ hơn 255 ký tự!';
 $_['error_model']            = 'Model sản phẩm phải lớn hơn 3 và nhỏ hơn 64 ký tự!';
 $_['error_keyword']          = 'SEO keyword này đã được dùng!';

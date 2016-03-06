@@ -29,6 +29,7 @@ $_['entry_name']             = 'Tên sản phẩm:';
 $_['entry_meta_keyword']     = 'Từ khóa:';
 $_['entry_meta_description'] = 'Mô tả từ khóa:';
 $_['entry_description']      = 'Mô tả sản phẩm:';
+$_['entry_short_description']      = 'Mô tả ngắn :';
 $_['entry_store']            = 'Cửa hàng:';
 $_['entry_keyword']          = 'Từ khóa SEO:';
 $_['entry_model']            = 'Model:';
