@@ -55,3 +55,41 @@
 2016-03-05 17:41:40 - PHP Notice:  Undefined variable: product_short_description in C:\xampp\htdocs\exotric\admin\view\template\catalog\product_form.tpl on line 63
 2016-03-05 17:41:40 - PHP Notice:  Undefined variable: product_short_description in C:\xampp\htdocs\exotric\admin\view\template\catalog\product_form.tpl on line 63
 2016-03-06 3:02:14 - PHP Notice:  Undefined variable: entry_captcha in C:\xampp\htdocs\exotric\catalog\view\theme\lexus_extroic\template\product\product_detail_hitech.tpl on line 147
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:16 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-08 3:43:31 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/model/catalog/product.php on line 14
+2016-03-09 4:02:06 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 44
+2016-03-09 4:02:06 - PHP Notice:  Undefined index: name in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 44
+2016-03-09 4:04:43 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-09 4:04:43 - PHP Notice:  Undefined index: name in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-09 4:05:17 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-09 4:05:17 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-09 4:06:16 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-09 4:07:06 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-09 4:07:54 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 45
+2016-03-09 5:17:25 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-09 5:17:37 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-09 9:09:23 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-09 9:11:04 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-09 9:12:31 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-09 9:17:43 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-09 9:22:09 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:727) in /home/ubuntu/workspace/system/library/response.php on line 12
+2016-03-09 9:23:09 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:727) in /home/ubuntu/workspace/system/library/response.php on line 12
+2016-03-09 9:25:18 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-09 9:25:42 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-09 9:26:04 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:727) in /home/ubuntu/workspace/system/library/response.php on line 12
+2016-03-09 9:28:49 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:725) in /home/ubuntu/workspace/system/library/response.php on line 12
+2016-03-09 9:29:20 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:721) in /home/ubuntu/workspace/system/library/response.php on line 12

@@ -49,12 +49,6 @@
                       <?php } ?>
                     </div>
                   </div>
-				  <div class="form-group required ">
-                    <label class="col-sm-2 control-label" for="input-short-description<?php echo $language['language_id']; ?>"><?php echo $entry__short_description; ?></label>
-                    <div class="col-sm-10">
-                      <textarea name="product_description[<?php echo $language['language_id']; ?>][short_description]" placeholder="<?php echo $entry__short_description; ?>" id="input-short-description<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['short_description'] : ''; ?></textarea>
-                    </div>
-                  </div>
                   <div class="form-group required">
                     <label class="col-sm-2 control-label" for="input-description<?php echo $language['language_id']; ?>"><?php echo $entry_description; ?></label>
                     <div class="col-sm-10">

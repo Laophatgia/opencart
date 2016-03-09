@@ -1576,6 +1576,7 @@ body .owl-carousel {
     -webkit-transition: all 0.25s ease-out;
     -o-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
+    z-index: 10000;
   }
 
   .row-offcanvas-right {
@@ -1634,6 +1635,7 @@ body .owl-carousel {
     position: absolute;
     top: 0;
     width: 50%;
+    z-index: 1000;
   }
 
   .bottom-offcanvas {

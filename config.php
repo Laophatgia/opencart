@@ -1,28 +1,28 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://laophatgia.esy.es/');
+define('HTTP_SERVER', 'https://opencart-laophatgia.c9users.io/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://laophatgia.esy.es/');
+define('HTTPS_SERVER', 'https://opencart-laophatgia.c9users.io/');
 
 // DIR
-define('DIR_APPLICATION', '/home/u156851369/public_html/catalog/');
-define('DIR_SYSTEM', '/home/u156851369/public_html/system/');
-define('DIR_LANGUAGE', '/home/u156851369/public_html/catalog/language/');
-define('DIR_TEMPLATE', '/home/u156851369/public_html/catalog/view/theme/');
-define('DIR_CONFIG', '/home/u156851369/public_html/system/config/');
-define('DIR_IMAGE', '/home/u156851369/public_html/image/');
-define('DIR_CACHE', '/home/u156851369/public_html/system/cache/');
-define('DIR_DOWNLOAD', '/home/u156851369/public_html/system/download/');
-define('DIR_UPLOAD', '/home/u156851369/public_html/system/upload/');
-define('DIR_MODIFICATION', '/home/u156851369/public_html/system/modification/');
-define('DIR_LOGS', '/home/u156851369/public_html/system/logs/');
+define('DIR_APPLICATION', '/home/ubuntu/workspace/catalog/');
+define('DIR_SYSTEM', '/home/ubuntu/workspace/system/');
+define('DIR_LANGUAGE', '/home/ubuntu/workspace/catalog/language/');
+define('DIR_TEMPLATE', '/home/ubuntu/workspace/catalog/view/theme/');
+define('DIR_CONFIG', '/home/ubuntu/workspace/system/config/');
+define('DIR_IMAGE', '/home/ubuntu/workspace/image/');
+define('DIR_CACHE', '/home/ubuntu/workspace/system/cache/');
+define('DIR_DOWNLOAD', '/home/ubuntu/workspace/system/download/');
+define('DIR_UPLOAD', '/home/ubuntu/workspace/system/upload/');
+define('DIR_MODIFICATION', '/home/ubuntu/workspace/system/modification/');
+define('DIR_LOGS', '/home/ubuntu/workspace/system/logs/');
 
 // DB
-define('DB_DRIVER', 'mysql');
-define('DB_HOSTNAME', 'mysql.hostinger.vn');
-define('DB_USERNAME', 'u156851369_sam');
-define('DB_PASSWORD', 'samsam');
-define('DB_DATABASE', 'u156851369_sam');
+define('DB_DRIVER', 'mpdo');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'laophatgia');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'exotric');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
