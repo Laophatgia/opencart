@@ -46,7 +46,6 @@
         <?php if( preg_match( '#(\d+).?(\d+)#',  $product['special'], $p ) ) { ?> 
         <meta content="<?php echo $p[0]; ?>" itemprop="price">
         <?php } ?>
-
       <?php } ?>
       <meta content="<?php // echo $this->currency->getCode(); ?>" itemprop="priceCurrency">
     </div>

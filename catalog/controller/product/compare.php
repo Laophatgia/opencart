@@ -41,6 +41,7 @@ class ControllerProductCompare extends Controller {
 
 		$data['text_product'] = $this->language->get('text_product');
 		$data['text_name'] = $this->language->get('text_name');
+		$data['text_short_description'] = $this->language->get('text_short_description');
 		$data['text_image'] = $this->language->get('text_image');
 		$data['text_price'] = $this->language->get('text_price');
 		$data['text_model'] = $this->language->get('text_model');
@@ -109,13 +110,14 @@ class ControllerProductCompare extends Controller {
 						$attribute_data[$attribute['attribute_id']] = $attribute['text'];
 					}
 				}
-
+				echo($product_info['short_description']);
 				$data['products'][$product_id] = array(
 					'product_id'   => $product_info['product_id'],
 					'name'         => $product_info['name'],
 					'thumb'        => $image,
 					'price'        => $price,
 					'special'      => $special,
+					'short_description'  => utf8_substr(strip_tags(html_entity_decode($product_info['short_description'], ENT_QUOTES, 'UTF-8')), 0, 200) . '..',
 					'description'  => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, 200) . '..',
 					'model'        => $product_info['model'],
 					'manufacturer' => $product_info['manufacturer'],

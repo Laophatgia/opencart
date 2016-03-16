@@ -138,6 +138,8 @@ class ControllerCommonMenu extends Controller {
 		$data['manufacturer'] = $this->url->link('catalog/manufacturer', 'token=' . $this->session->data['token'], 'SSL');
 		$data['marketing'] = $this->url->link('marketing/marketing', 'token=' . $this->session->data['token'], 'SSL');
 		$data['module'] = $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL');
+		$data['pavmegamenu'] = $this->url->link('module/pavmegamenu', 'token=' . $this->session->data['token'], 'SSL');
+		$data['pavverticalmenu'] = $this->url->link('module/pavverticalmenu', 'token=' . $this->session->data['token'], 'SSL');
 		$data['option'] = $this->url->link('catalog/option', 'token=' . $this->session->data['token'], 'SSL');
 		$data['order'] = $this->url->link('sale/order', 'token=' . $this->session->data['token'], 'SSL');
 		$data['order_status'] = $this->url->link('localisation/order_status', 'token=' . $this->session->data['token'], 'SSL');

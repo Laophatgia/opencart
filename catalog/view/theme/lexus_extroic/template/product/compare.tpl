@@ -24,6 +24,7 @@
           </tr>
         </thead>
         <tbody>
+          
           <tr>
             <td><?php echo $text_name; ?></td>
             <?php foreach ($products as $product) { ?>
@@ -31,22 +32,16 @@
             <?php } ?>
           </tr>
           <tr>
+            <td><?php echo $text_short_description; ?></td>
+            <?php foreach ($products as $product) { ?>
+             <td class="description"><?php echo $products[$product['product_id']]['short_description']; ?></td>
+            <?php } ?>
+          </tr>
+          <tr>
             <td><?php echo $text_image; ?></td>
             <?php foreach ($products as $product) { ?>
             <td class="text-center"><?php if ($products[$product['product_id']]['thumb']) { ?>
               <img src="<?php echo $products[$product['product_id']]['thumb']; ?>" alt="<?php echo $products[$product['product_id']]['name']; ?>" title="<?php echo $products[$product['product_id']]['name']; ?>" class="img-thumbnail" />
-              <?php } ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_price; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php if ($products[$product['product_id']]['price']) { ?>
-              <?php if (!$products[$product['product_id']]['special']) { ?>
-              <?php echo $products[$product['product_id']]['price']; ?>
-              <?php } else { ?>
-              <span class="price-old"><?php echo $products[$product['product_id']]['price']; ?> </span> <span class="price-new"> <?php echo $products[$product['product_id']]['special']; ?> </span>
-              <?php } ?>
               <?php } ?></td>
             <?php } ?>
           </tr>
@@ -60,12 +55,6 @@
             <td><?php echo $text_manufacturer; ?></td>
             <?php foreach ($products as $product) { ?>
             <td><?php echo $products[$product['product_id']]['manufacturer']; ?></td>
-            <?php } ?>
-          </tr>
-          <tr>
-            <td><?php echo $text_availability; ?></td>
-            <?php foreach ($products as $product) { ?>
-            <td><?php echo $products[$product['product_id']]['availability']; ?></td>
             <?php } ?>
           </tr>
           <?php if ($review_status) { ?>

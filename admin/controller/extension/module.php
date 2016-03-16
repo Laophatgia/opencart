@@ -171,6 +171,7 @@ class ControllerExtensionModule extends Controller {
 				}
 
 				$data['extensions'][] = array(
+					'code' 		=> $extension,
 					'name'      => $this->language->get('heading_title'),
 					'module'    => $module_data,
 					'install'   => $this->url->link('extension/module/install', 'token=' . $this->session->data['token'] . '&extension=' . $extension, 'SSL'),

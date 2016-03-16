@@ -88,6 +88,9 @@ body.layout-boxed-lg #page {
   margin: 0 auto;
   background: #FFFFFF;
 }
+#page {
+    background: white none repeat scroll 0 0;
+}
 
 /*
 * HEADER 

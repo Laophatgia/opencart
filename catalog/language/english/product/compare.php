@@ -13,6 +13,7 @@ $_['text_availability'] = 'Availability';
 $_['text_instock']      = 'In Stock';
 $_['text_rating']       = 'Rating';
 $_['text_reviews']      = 'Based on %s reviews.';
+$_['text_short_décription']      = 'short description';
 $_['text_summary']      = 'Summary';
 $_['text_weight']       = 'Weight';
 $_['text_dimension']    = 'Dimensions (L x W x H)';

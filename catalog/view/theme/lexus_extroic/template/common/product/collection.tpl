@@ -27,23 +27,6 @@
     <p class="description" itemprop="description"><?php echo utf8_substr( strip_tags($product['description']),0,220);?>...</p>
     <?php } ?>
     <blockquote class="pull-left">
-      <?php if ($product['price']) { ?>
-      <div class="price clearfix" itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-        <?php if (!$product['special']) {  ?>
-        <span class="price-new"><?php echo $product['price']; ?></span>
-        <?php if( preg_match( '#(\d+).?(\d+)#',  $product['price'], $p ) ) { ?>
-        <meta content="<?php echo $p[0]; ?>" itemprop="price">
-        <?php } ?>
-        <?php } else { ?>
-        <span class="price-new"><?php echo $product['special']; ?></span>
-        <span class="price-old"><?php echo $product['price']; ?></span>
-        <?php if( preg_match( '#(\d+).?(\d+)#',  $product['special'], $p ) ) { ?>
-        <meta content="<?php echo $p[0]; ?>" itemprop="price">
-        <?php } ?>
-        <?php } ?>
-        <meta content="<?php // echo $this->currency->getCode(); ?>" itemprop="priceCurrency">
-      </div>
-      <?php } ?>
       <?php if ( isset($product['rating']) ) { ?>
       <div class="rating">
         <?php for ($is = 1; $is <= 5; $is++) { ?>

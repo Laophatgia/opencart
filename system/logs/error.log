@@ -93,3 +93,61 @@
 2016-03-09 9:26:04 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:727) in /home/ubuntu/workspace/system/library/response.php on line 12
 2016-03-09 9:28:49 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:725) in /home/ubuntu/workspace/system/library/response.php on line 12
 2016-03-09 9:29:20 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/admin/language/vietnamese/module/themecontrol.php:721) in /home/ubuntu/workspace/system/library/response.php on line 12
+2016-03-10 2:11:52 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:12:03 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:14:25 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:06 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:07 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:07 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:07 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:08 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:18 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:19 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:19 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:20 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:21 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:21 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:21 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:22 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:22 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:23 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:23 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:24 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:24 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:25 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:15:49 - PHP Notice:  Undefined variable: store in /home/ubuntu/workspace/admin/view/template/common/header.tpl on line 46
+2016-03-10 2:17:53 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-11 1:59:56 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-11 2:52:53 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-11 2:53:37 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-11 2:54:29 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-11 4:30:51 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-11 4:46:05 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-11 5:06:45 - PHP Notice:  Undefined variable: location in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 33
+2016-03-11 5:07:33 - PHP Notice:  Undefined variable: location in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 33
+2016-03-11 5:10:53 - PHP Notice:  Undefined variable: product in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 33
+2016-03-14 4:15:14 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-14 4:43:10 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-14 4:53:24 - PHP Notice:  Undefined variable: text_short_description in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/compare.tpl on line 35
+2016-03-14 4:53:24 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/compare.tpl on line 37
+2016-03-14 4:53:24 - PHP Notice:  Undefined index: short_description in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/compare.tpl on line 37
+2016-03-14 8:26:44 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-14 8:33:48 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-14 8:33:50 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-14 8:46:35 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-15 2:00:18 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-15 4:56:49 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-15 5:03:37 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-15 5:03:39 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-15 5:04:11 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 148
+2016-03-15 6:57:41 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 12
+2016-03-15 6:58:22 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-15 7:27:45 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-15 8:47:29 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-16 2:00:30 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-16 2:03:26 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 142
+2016-03-16 2:07:44 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147
+2016-03-16 2:08:29 - PHP Notice:  Undefined variable: product_info in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 33
+2016-03-16 2:08:29 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 148
+2016-03-16 2:10:54 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 148
+2016-03-16 2:11:06 - PHP Notice:  Undefined variable: entry_captcha in /home/ubuntu/workspace/catalog/view/theme/lexus_extroic/template/product/product_detail_hitech.tpl on line 147

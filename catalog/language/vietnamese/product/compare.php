@@ -13,6 +13,7 @@ $_['text_availability'] = 'Sẵn có';
 $_['text_instock']      = 'Đang có hàng';
 $_['text_rating']       = 'Đánh giá';
 $_['text_reviews']      = 'Dựa vào %s đánh giá.';
+$_['text_short_description']      = 'Mô tả ngắn';
 $_['text_summary']      = 'Tóm tắt';
 $_['text_weight']       = 'Trọng lượng';
 $_['text_dimension']    = 'Kích thước (L x W x H)';

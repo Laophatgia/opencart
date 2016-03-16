@@ -10,7 +10,7 @@
 <div class="product-info">
     <div class="row">
     <div class="product-info-bg">
-    <?php require( ThemeControlHelper::getLayoutPath( 'common/detail/'.$mode.'.tpl' ) );  ?> 
+    <?php echo $mode; require( ThemeControlHelper::getLayoutPath( 'common/detail/'.$mode.'.tpl' ) );  ?> 
    
 	<div class="col-xs-12 col-sm-<?php echo $cols[1]; ?> col-md-<?php echo $cols[1]; ?> col-lg-<?php echo $cols[1]; ?>">
 		<h1 class="title-product"><?php echo $heading_title; ?></h1>
@@ -29,11 +29,11 @@
             </div>
         <?php } ?>
 
-		 <blockquote class="border-success">
-		 <?php if($location) { ?>
-			<p> <?php echo $location; ?> </p>
-		 <?php } ?>
-		  </blockquote>
+		    <blockquote> 
+            	<?php if( isset($short_description) ){ ?>	
+            		 <p > <?php echo $short_description;?> </p>
+            	<?php } ?> 
+            </blockquote>
 
         <blockquote class="border-success">
             <ul class="list-unstyled">
@@ -116,7 +116,7 @@
                     <h2><?php echo $text_write; ?></h2>
                     <div class="form-group required">
                         <div class="col-sm-12">
-                            <label class="control-label" for="input-name"><?php echo $entry_name; ?></label>
+                            <label class="control-label" for="input-name"> <?php echo $entry_name; ?></label>
                             <input type="text" name="name" value="" id="input-name" class="form-control" />
                         </div>
                     </div>
